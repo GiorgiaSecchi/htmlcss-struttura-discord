@@ -15,10 +15,6 @@
   max-height: 100px;
 }
 
-.hero-container {
-  margin: auto;
-}
-
 /* DEBUG */
 
 .debug {
@@ -60,5 +56,14 @@
 
 .hero-section {
   background-color: blue;
-  height: 500px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-container {
+  background-color: hotpink;
+  width: 600px;
+  height: 300px;
 }
