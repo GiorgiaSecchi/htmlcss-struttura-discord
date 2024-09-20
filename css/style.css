@@ -15,6 +15,10 @@
   max-height: 100px;
 }
 
+.hero-container {
+  margin: auto;
+}
+
 /* DEBUG */
 
 .debug {
@@ -25,10 +29,6 @@
 
 .debug .debug {
   background-color: goldenrod;
-}
-
-.debug .debug .debug {
-  background-color: blue;
 }
 
 /* HEADER */
@@ -42,15 +42,18 @@
 
 .logo-container {
   display: flex;
+  width: 25%;
 }
 
 .nav-container {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 .login-container {
   display: flex;
+  width: 25%;
 }
 
 /* MAIN */
