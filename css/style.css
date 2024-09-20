@@ -18,7 +18,11 @@
 /* DEBUG */
 
 .debug {
-  background-color: coral;
+  background-color: darkturquoise;
   border: 2px dashed black;
   padding: 5px;
+}
+
+.debug .debug {
+  background-color: goldenrod;
 }
