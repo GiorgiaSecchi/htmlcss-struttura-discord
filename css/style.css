@@ -15,6 +15,10 @@
   max-height: 100px;
 }
 
-h1 {
-  color: blueviolet;
+/* DEBUG */
+
+.debug {
+  background-color: coral;
+  border: 2px dashed black;
+  padding: 5px;
 }
