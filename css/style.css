@@ -26,3 +26,12 @@
 .debug .debug {
   background-color: goldenrod;
 }
+
+/* HEADER */
+
+.page-header > .container {
+  background-color: darkturquoise;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
