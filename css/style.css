@@ -20,11 +20,15 @@
 .debug {
   background-color: darkturquoise;
   border: 2px dashed black;
-  padding: 5px;
+  padding: 10px;
 }
 
 .debug .debug {
   background-color: goldenrod;
+}
+
+.debug .debug .debug {
+  background-color: blue;
 }
 
 /* HEADER */
@@ -32,6 +36,26 @@
 .page-header > .container {
   background-color: darkturquoise;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+}
+
+.logo-container {
+  display: flex;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+}
+
+.login-container {
+  display: flex;
+}
+
+/* MAIN */
+
+.hero-section {
+  background-color: blue;
+  height: 500px;
 }
