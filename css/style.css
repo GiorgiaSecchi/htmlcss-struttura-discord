@@ -43,10 +43,12 @@ grigio scuro #232629 */
 
 .border.img {
   background-color: #498df4;
+  height: 500px;
 }
 
 .border.text {
   background-color: #f4c0cb;
+  height: 500px;
 }
 
 .border.gray {
@@ -109,6 +111,9 @@ header {
 
 /* MAIN */
 
+.main-container {
+}
+
 /* HERO-SECTION */
 
 .hero-section {
@@ -131,6 +136,8 @@ section > .container {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .col-big {
