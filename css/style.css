@@ -23,7 +23,8 @@ grigio scuro #232629 */
 .container {
   margin: 0 auto;
   padding: 0 10px;
-  width: 1000px;
+  width: 60%;
+  /* width: 1000px; */
 }
 
 /* DEBUG */
@@ -66,10 +67,17 @@ grigio scuro #232629 */
 
 .border.salmon {
   background-color: #e58382;
+  height: 800px;
 }
 
 .border.teal {
   background-color: #46ada6;
+  height: 800px;
+}
+
+.border.footer {
+  background-color: #232629;
+  height: 800px;
 }
 
 /* HEADER */
@@ -126,14 +134,15 @@ header {
 }
 
 .hero-container {
-  width: 800px;
+  /* width: 800px; */
+  width: 1000px;
   height: 400px;
   margin: 20px 0px 20px 0px;
 }
 
 /* CARD */
 
-section > .container {
+.card-section > .container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -164,6 +173,41 @@ section > .container {
 .card-green {
   width: 100%;
 }
+
+/* FOOTER */
+
+footer {
+  background-color: #232629;
+}
+
+.footer-section > .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.col1 {
+  width: 40%;
+}
+
+.col2 {
+  width: 15%;
+}
+
+.col3 {
+  width: 15%;
+}
+
+.col4 {
+  width: 15%;
+}
+
+.col5 {
+  width: 15%;
+}
+
 /* HEADER
 
 .page-header > .container {
