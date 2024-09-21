@@ -1,3 +1,15 @@
+/* COLOR
+
+rosa #e683e9
+blu #180086
+azzurro #498df4
+rosa nude #f4c0cb
+verde #348827
+rosa salmone #e58382
+verde acqua #46ada6  
+grigio chiaro #d2d2d2
+grigio scuro #232629 */
+
 /* RESET */
 
 * {
@@ -16,23 +28,16 @@
 
 /* DEBUG */
 
-.debug {
+.debug-border {
   border: 2px dashed black;
   padding: 10px;
-}
-
-.debug .debug {
-  background-color: lightgreen;
-}
-
-.debug .debug .debug {
-  background-color: goldenrod;
 }
 
 /* HEADER */
 
 .page-header {
   background-color: lightblue;
+  padding: 10px;
 }
 
 .page-header > .container {
@@ -64,6 +69,23 @@
   justify-content: flex-end;
   align-items: center;
   width: 20%;
+}
+
+/* HERO-SECTION */
+
+.hero-section {
+  background-color: #180086;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.hero-container {
+  background-color: #e683e9;
+  width: 800px;
+  height: 400px;
+  margin: 20px 0px 20px 0px;
 }
 
 /* HEADER
