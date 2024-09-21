@@ -17,13 +17,53 @@
 /* DEBUG */
 
 .debug {
-  background-color: darkturquoise;
   border: 2px dashed black;
   padding: 10px;
 }
 
 .debug .debug {
+  background-color: lightgreen;
+}
+
+.debug .debug .debug {
   background-color: goldenrod;
+}
+
+/* HEADER */
+
+.page-header {
+  background-color: lightblue;
+}
+
+.page-header > .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 20%;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+
+.link-item {
+  margin: 0px 5px;
+}
+
+.login-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 20%;
 }
 
 /* HEADER
