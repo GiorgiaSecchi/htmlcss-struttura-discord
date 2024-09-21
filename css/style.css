@@ -28,14 +28,50 @@ grigio scuro #232629 */
 
 /* DEBUG */
 
-.debug-border {
+.border {
   border: 2px dashed black;
   padding: 10px;
 }
 
+.border.navbar {
+  background-color: goldenrod;
+}
+
+.border.hero {
+  background-color: #e683e9;
+}
+
+.border.img {
+  background-color: #498df4;
+}
+
+.border.text {
+  background-color: #f4c0cb;
+}
+
+.border.gray {
+  background-color: #d2d2d2;
+}
+
+.border.green {
+  background-color: #348827;
+}
+
+.border.dark {
+  background-color: #232629;
+}
+
+.border.salmon {
+  background-color: #e58382;
+}
+
+.border.teal {
+  background-color: #46ada6;
+}
+
 /* HEADER */
 
-.page-header {
+header {
   background-color: lightblue;
   padding: 10px;
 }
@@ -71,6 +107,8 @@ grigio scuro #232629 */
   width: 20%;
 }
 
+/* MAIN */
+
 /* HERO-SECTION */
 
 .hero-section {
@@ -82,10 +120,25 @@ grigio scuro #232629 */
 }
 
 .hero-container {
-  background-color: #e683e9;
   width: 800px;
   height: 400px;
   margin: 20px 0px 20px 0px;
+}
+
+/* CARD */
+
+section > .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-big {
+  width: 60%;
+}
+
+.col-small {
+  width: 40%;
 }
 
 /* HEADER
@@ -150,4 +203,4 @@ grigio scuro #232629 */
   width: 500px;
   height: 500px;
   background-color: pink;
-}  */
+} */
