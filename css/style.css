@@ -22,7 +22,7 @@ grigio scuro #232629 */
 
 .container {
   margin: 0 auto;
-  padding: 0 10px;
+  /* padding: 0 10px; */
   width: 60%;
   /* width: 1000px; */
 }
@@ -31,53 +31,57 @@ grigio scuro #232629 */
 
 .border {
   border: 2px dashed black;
-  padding: 10px;
+  padding: 5px;
 }
 
-.border.navbar {
+.navbar {
   background-color: goldenrod;
 }
 
-.border.hero {
+.hero {
   background-color: #e683e9;
 }
 
-.border.img {
+.img {
   background-color: #498df4;
   height: 500px;
 }
 
-.border.text {
+.text {
   background-color: #f4c0cb;
   height: 500px;
 }
 
-.border.gray {
+.gray {
   background-color: #d2d2d2;
 }
 
-.border.green {
+.green {
   background-color: #348827;
   height: 800px;
 }
 
-.border.dark {
+.dark {
   background-color: #232629;
 }
 
-.border.salmon {
+.salmon {
   background-color: #e58382;
   height: 800px;
 }
 
-.border.teal {
+.teal {
   background-color: #46ada6;
   height: 800px;
 }
 
-.border.footer {
+.footer {
   background-color: #232629;
   height: 800px;
+}
+
+.navfooter {
+  background-color: darkturquoise;
 }
 
 /* HEADER */
@@ -119,9 +123,6 @@ header {
 }
 
 /* MAIN */
-
-.main-container {
-}
 
 /* HERO-SECTION */
 
@@ -188,6 +189,14 @@ footer {
   margin-bottom: 20px;
 }
 
+.footer-navbar > .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 .col1 {
   width: 40%;
 }
@@ -206,6 +215,14 @@ footer {
 
 .col5 {
   width: 15%;
+}
+
+.foot-logo {
+  background-color: #f4c0cb;
+}
+
+.foot-buttom {
+  background-color: #f4c0cb;
 }
 
 /* HEADER
