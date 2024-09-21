@@ -140,6 +140,14 @@ section > .container {
   margin-bottom: 20px;
 }
 
+section:nth-child(odd) {
+  background-color: white;
+}
+
+section:nth-child(even) {
+  background-color: #d2d2d2;
+}
+
 .col-big {
   width: 60%;
 }
